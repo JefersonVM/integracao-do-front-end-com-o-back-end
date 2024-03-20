@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  height: 100vh;
+}
+.form-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid lightgray;
+  width: 400px;
+  height: 350px;
+  padding: 16px;
+}
+
+.form-profile button {
+  margin-top: 32px;
+}
+
+.form-profile input {
+  margin-top: 5px;
+}
+
+.form-profile h2 {
+  margin-bottom: 32px;
+}
+
+.container-contatos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid lightgray;
+  width: 400px;
+  height: 350px;
+  padding: 16px;
+}

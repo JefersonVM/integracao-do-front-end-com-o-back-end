@@ -1,3 +1,34 @@
 {
-  "users": []
+  "users": [
+    {
+      "name": "Evellyn Silva Moreira",
+      "email": "evellynsilva@gmail.com",
+      "password": 123456,
+      "id": 4
+    },
+    {
+      "name": "Emilly de Lima Silva Moreira",
+      "email": "emillysilva@gmail.com",
+      "password": "123456",
+      "id": 5
+    },
+    {
+      "name": "Rosemeire Rinco Vieira Moreira",
+      "email": "rosemeirerinco@gmail.com",
+      "password": "123456",
+      "id": 6
+    },
+    {
+      "name": "Jeferson Vieira ",
+      "email": "jeferson.vm1981@gmail.com",
+      "password": "123456",
+      "id": 7
+    },
+    {
+      "name": "Carlos Roberto Moreira",
+      "email": "carlos@gmail.com",
+      "password": "123456",
+      "id": 8
+    }
+  ]
 }

@@ -1,12 +1,13 @@
-import Main from './pages/Main';
-import SignIn from './pages/SignIn';
+import Main from "./pages/Main";
+import SignIn from "./pages/SignIn";
+import { getItem } from "./utils/storage";
 
-import { Routes, Route, Outlet, Navigate } from 'react-router-dom'
+import { Routes, Route, Outlet, Navigate } from "react-router-dom";
 
 function ProtectedRoutes({ redirectTo }) {
-  const isAuthenticated = true;
+  const isAuthenticated = getItem("token");
 
-  return isAuthenticated ? <Outlet /> : <Navigate to={redirectTo} />
+  return isAuthenticated ? <Outlet /> : <Navigate to={redirectTo} />;
 }
 
 function MainRoutes() {
@@ -14,11 +15,10 @@ function MainRoutes() {
     <Routes>
       <Route path="/" element={<SignIn />} />
 
-      <Route element={<ProtectedRoutes redirectTo='/' />}>
+      <Route element={<ProtectedRoutes redirectTo="/" />}>
         <Route path="/main" element={<Main />} />
       </Route>
     </Routes>
-
   );
 }
 
