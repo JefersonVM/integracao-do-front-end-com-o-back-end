@@ -1,3 +1,25 @@
 {
-  "users": []
+  "users": [
+    {
+      "name": "Jeferson Vieira",
+      "email": "jeferson@gmail.com",
+      "password": "123456",
+      "id": 1
+    },
+    {
+      "name": "Vinicíus Oliveira",
+      "email": "vinicius@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "Evellyn Silva",
+      "email": "evellyn@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "Marcos Moita",
+      "email": "moita@gmail.com",
+      "id": 4
+    }
+  ]
 }

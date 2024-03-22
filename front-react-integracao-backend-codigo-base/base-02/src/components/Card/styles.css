@@ -1,0 +1,22 @@
+.container-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.container-card ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  border: 1px solid lightgray;
+}
+
+.container-card ul li {
+  list-style: none;
+  width: 300px;
+  padding: 10px;
+}

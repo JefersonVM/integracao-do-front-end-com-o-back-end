@@ -2,11 +2,14 @@ import { useState } from "react";
 import "./styles.css";
 import api from "../../services/api";
 import { getItem } from "../../utils/storage";
+import Card from "../../components/Card";
+
 
 function Main() {
   const [nome, setNome] = useState("");
   const [telefone, setTelefone] = useState("");
   const [email, setEmail] = useState("");
+
 
   async function handleSubmit(e) {
     e.preventDefault();
@@ -42,6 +45,8 @@ function Main() {
     }
   };
 
+
+
   return (
     <div className="container">
       <form className="form-profile" onSubmit={handleSubmit}>
@@ -73,12 +78,8 @@ function Main() {
         />
         <button className="btn-purple">Adicionar</button>
       </form>
-      <div className="container-contatos">
-        <h2>Lista de contatos</h2>
-      
-   
-          
-
+      <div>
+        <Card/>
       </div>
     </div>
   );
